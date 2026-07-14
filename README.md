@@ -26,7 +26,11 @@
 パスワード (password) : `ubuntu`  
 　→ ここでログインに成功すると、新しいパスワードの入力を求められるので、設定する
 
-## ③ 必要な設定をセットアップしていく  
+## ③ 必要な設定をセットアップする  
 1. [Wi-Fiのセットアップ](Wi-Fi_Setup/step.md)  
 2. [Bluetoothのセットアップ](Bluetooth_Setup/step.md)  
 
+## ④ 任意のアプリや設定をセットアップする  
+1. [Tailscale = VPNツール](TailscaleSetup/step.md)  
+
+## ⑤ 開発環境をセットアップする  
