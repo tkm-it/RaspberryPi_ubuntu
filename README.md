@@ -34,3 +34,6 @@
 1. [Tailscale = VPNツール](TailscaleSetup/step.md)  
 
 ## ⑤ 開発環境をセットアップする  
+
+## ⑥ その他 ubuntu自体や通信環境での設定やトラブルシューティング  
++ [公衆wifiでの作業時のapt upgradeなどを通す方法 = MTU調整](mtuSetting/step.md)
