@@ -26,14 +26,25 @@
 パスワード (password) : `ubuntu`  
 　→ ここでログインに成功すると、新しいパスワードの入力を求められるので、設定する
 
-## ③ 必要な設定をセットアップする  
-1. [Wi-Fiのセットアップ](Wi-Fi_Setup/step.md)  
-2. [Bluetoothのセットアップ](Bluetooth_Setup/step.md)  
+## ③ 各種インストール・セットアップ手順  
+以下はRaspberryPiに限らず、ubuntuの標準的なセットアップ手順としてピックアップ・説明の記載をしている  
+
+### (1) 必要な設定のセットアップ  
+1. [Wi-Fiのセットアップ ※ネイティブubuntuセットアップ時のみ](Wi-Fi_Setup/step.md)  
+2. [Bluetoothのセットアップ ※ネイティブubuntuセットアップ時のみ](Bluetooth_Setup/step.md)
+3. [curlのセットアップ](curl_Setup/step.md)  
 
 ## ④ 任意のアプリや設定をセットアップする  
-1. [Tailscale = VPNツール](TailscaleSetup/step.md)  
+1. [Tailscale = VPNツール](otherApps/Tailscale.md)
+2. [gitのセットアップ](otherApps/git.md)
+3. [Docker / DockerCompose のセットアップ](otherApps/docker.md)
+4. [nginxのインストール](otherApps/nginxInstall.md)  
 
 ## ⑤ 開発環境をセットアップする  
+1. [python(pyenv)のセットアップ](develop_Setup/python.md)
+2. [golangのセットアップ](develop_Setup/go.md)
+3. [PostgreSQLのセットアップ](develop_Setup/postgreSQL.md)
+4. 
 
 ## ⑥ その他 ubuntu自体や通信環境での設定やトラブルシューティング  
 + [公衆wifiでの作業時のapt upgradeなどを通す方法 = MTU調整](mtuSetting/step.md)
