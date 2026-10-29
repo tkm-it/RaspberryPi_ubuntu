@@ -32,7 +32,8 @@
 ### (1) 必要な設定のセットアップ  
 1. [Wi-Fiのセットアップ ※ネイティブubuntuセットアップ時のみ](Wi-Fi_Setup/step.md)  
 2. [Bluetoothのセットアップ ※ネイティブubuntuセットアップ時のみ](Bluetooth_Setup/step.md)
-3. [curlのセットアップ](curl_Setup/step.md)  
+3. [curlのセットアップ](curl_Setup/step.md)
+4. [ポートの解放(SSH/http/httpsアクセス用)](port_Setup/step.md)  
 
 ## ④ 任意のアプリや設定をセットアップする  
 1. [Tailscale = VPNツール](otherApps/Tailscale.md)
@@ -44,7 +45,9 @@
 1. [python(pyenv)のセットアップ](develop_Setup/python.md)
 2. [golangのセットアップ](develop_Setup/go.md)
 3. [PostgreSQLのセットアップ](develop_Setup/postgreSQL.md)
-4. 
+4. [MariaDBのセットアップ](develop_Setup/MariaDB.md)  
 
-## ⑥ その他 ubuntu自体や通信環境での設定やトラブルシューティング  
+## 
+
+## Other) ubuntu自体や通信環境での設定やトラブルシューティング  
 + [公衆wifiでの作業時のapt upgradeなどを通す方法 = MTU調整](mtuSetting/step.md)
